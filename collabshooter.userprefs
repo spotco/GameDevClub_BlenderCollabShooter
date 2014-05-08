@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/S3KControl.cs">
+    <Files>
+      <File FileName="Assets/EnemyManager.cs" Line="29" Column="48" />
+      <File FileName="Assets/Enemy.cs" Line="18" Column="36" />
+      <File FileName="Assets/S3KControl.cs" Line="17" Column="35" />
+      <File FileName="Assets/Bullet.cs" Line="46" Column="13" />
+      <File FileName="Assets/Util.cs" Line="31" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
