@@ -37,10 +37,22 @@ public class EnemyManager : MonoBehaviour {
 		}
 	}
 
+	List<string> _models = new List<string>() {
+		"models/thing1",
+		"models/thing2"
+	};
+
 	public void add_enemy(Vector3 position) {
 		GameObject enemy_object = (GameObject)Instantiate(Resources.Load("Enemy"));
 		enemy_object.transform.parent = gameObject.transform;
 		enemy_object.AddComponent<Enemy>();
+
+
+		string tar_model = _models[(int)Util.rand_range(0,_models.Count)];
+		GameObject enemy_model = (GameObject)Instantiate(Resources.Load(tar_model));
+		enemy_model.transform.parent = enemy_object.transform;
+		enemy_model.transform.localPosition = Vector3.zero;
+
 		Enemy neu_enemy = enemy_object.GetComponent<Enemy>();
 		neu_enemy.start(position,enemy_object);
 		_enemies.Add(neu_enemy);
