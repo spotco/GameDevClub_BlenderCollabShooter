@@ -38,8 +38,13 @@ public class EnemyManager : MonoBehaviour {
 	}
 
 	List<string> _models = new List<string>() {
-		"models/thing1",
-		"models/thing2"
+		"models/thing4",
+		"models/thing5",
+		"models/shiny",
+		"models/NOMNOMNOM",
+		"models/shit_modified",
+		"models/spike_thing",
+		"models/clover"
 	};
 
 	public void add_enemy(Vector3 position) {
