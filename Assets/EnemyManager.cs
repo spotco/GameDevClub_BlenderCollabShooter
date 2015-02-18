@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 
 public class EnemyManager : MonoBehaviour {
+
+	List<string> _models = new List<string>() {
+		"models/frog"
+	};
+
 	public static EnemyManager inst;
 	
 	public List<Enemy> _enemies = new List<Enemy>();
@@ -36,16 +41,6 @@ public class EnemyManager : MonoBehaviour {
 			add_enemy(pos);
 		}
 	}
-
-	List<string> _models = new List<string>() {
-		"models/thing4",
-		"models/thing5",
-		"models/shiny",
-		"models/NOMNOMNOM",
-		"models/shit_modified",
-		"models/spike_thing",
-		"models/clover"
-	};
 
 	public void add_enemy(Vector3 position) {
 		GameObject enemy_object = (GameObject)Instantiate(Resources.Load("Enemy"));
