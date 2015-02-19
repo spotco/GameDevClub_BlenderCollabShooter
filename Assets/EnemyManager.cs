@@ -4,7 +4,14 @@ using System.Collections.Generic;
 public class EnemyManager : MonoBehaviour {
 
 	List<string> _models = new List<string>() {
-		"models/frog"
+		"models/frog",
+		"models/boxoid",
+		"models/shitty_griefseed",
+		"models/something",
+		"models/sword2",
+		"models/goty_best_mustache",
+		"models/DICKBUTT",
+		"models/TUNINGFORK"
 	};
 
 	public static EnemyManager inst;

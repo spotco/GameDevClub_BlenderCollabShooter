@@ -51,6 +51,7 @@
      <Compile Include="Assets\EffectManager.cs" />
      <Compile Include="Assets\Enemy.cs" />
      <Compile Include="Assets\EnemyManager.cs" />
+     <Compile Include="Assets\Rotater.cs" />
      <Compile Include="Assets\S3KControl.cs" />
      <Compile Include="Assets\Util.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
